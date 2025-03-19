@@ -1,0 +1,57 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* COLORS */
+  /* BRAND */
+  --snitap-sun: #FFCD1E;
+  --snitap-sky-mid: #06B6D4;
+  --snitap-sky-light: #67E8F9;
+  --snitap-joy-mid: #DB2777;
+  --snitap-joy-light: #F472B6;
+  --snitap-leaf-mid: #16A34A;
+  /* BASE */
+  --text: #000000;
+  --highlights: #000000;
+  --background: #FAFAFA;
+
+  /* FONTS */
+  --ff-syne: "Syne", sans-serif;
+  --ff-montserrat: "Montserrat", sans-serif;
+  /* FONT WEIGHT */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+  /* TYPOGRAPHY */
+  --heading1: var(--fw-bold) 4rem/1.25 var(--ff-syne);
+  --heading2: var(--fw-bold) 2.5rem/1.2 var(--ff-syne);
+
+  --button-label: var(--fw-medium) 1rem/1.5 var(--ff-montserrat);
+  --span: var(--fw-medium) .875rem/1.5 var(--ff-montserrat);
+
+  --text-sm: .875rem;
+  --text-base: 1rem;
+  --text-lg: 2.5rem;
+  --text-xl: 4rem;
+}
+
+html, button {
+  font: var(--button-label);
+}
+
+/* h1, h2 {
+  font-family: var(--ff-syne);
+} */
+
+h1 {
+  font: var(--heading1)
+}
+
+h2 {
+  font: var(--heading2);
+}
