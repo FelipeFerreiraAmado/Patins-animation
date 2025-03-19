@@ -44,6 +44,10 @@ html, button {
   font: var(--button-label);
 }
 
+/* html {
+  zoom: .5;
+} */
+
 /* h1, h2 {
   font-family: var(--ff-syne);
 } */
