@@ -64,3 +64,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+@media (width <= 800px) {
+  html, body {
+    overflow-x: hidden;
+  }
+}

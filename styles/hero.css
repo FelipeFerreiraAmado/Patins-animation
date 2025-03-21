@@ -234,3 +234,68 @@ section.hero {
     transform: translateY(-15rem);
   }
 }
+
+@media (width <= 800px) {
+
+  section.hero {
+    flex-direction: column-reverse;
+    padding: 1rem 1.5rem;
+    gap: 2rem;
+
+    & h1 {
+      margin-inline: auto;
+      font-size: 2rem;
+    }
+
+    & h1 div {
+      height: 2.5rem;
+    }
+
+    & > div:nth-child(2) {
+      max-width: 19.5rem;
+      height: 19.5rem;
+
+      & img {
+        width: 100%;
+      }
+
+      & img[src*="patins"] {
+        width: 95%;
+        top: 3%;
+        right: 3%;
+      }
+
+      & img[src*="stars-1"] {
+        max-width: 3.5rem;
+        left: 2%;
+        bottom: 4%;
+      }
+
+      & img[src*="stars-2"] {
+        max-width: 1.6rem;
+      }
+    }
+
+    & .buttons {
+      flex-direction: column-reverse;
+      gap: 1.5rem;
+      max-width: 90%;
+      margin-right: auto;
+      padding-bottom: 2rem;
+
+      & .button.buy {
+        justify-content: center;
+        white-space: nowrap;
+      }
+    }
+  }
+}
+
+@media (width <= 430px) {
+  section.hero {
+
+    & h1 {
+      font-size: 2rem;
+    }
+  }
+}
