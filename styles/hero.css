@@ -281,7 +281,7 @@ section.hero {
       gap: 1.5rem;
       max-width: 90%;
       margin-right: auto;
-      padding-bottom: 2rem;
+      padding-bottom: 3rem;
 
       & .button.buy {
         justify-content: center;

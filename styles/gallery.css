@@ -114,3 +114,36 @@ section.gallery {
     transform: translateY(100%);
   }
 }
+
+@media (width <= 800px) {
+  .banner {
+    padding-block: 1.5rem;
+  }
+
+  section.gallery {
+    padding: 1.5rem 1.5rem;
+
+    & > header {
+
+      & span {
+        font-size: .75rem;
+      }
+
+      & h2 {
+        font-size: 1.5rem;
+      }
+    }
+
+    & .content {
+      grid-template-areas: 
+      "A"
+      "B"
+      "C"
+      "D";
+    }
+
+    & figure > img {
+      height: 16rem;
+    }
+  }
+}
