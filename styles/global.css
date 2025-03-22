@@ -48,10 +48,6 @@ html, button {
   zoom: .5;
 } */
 
-/* h1, h2 {
-  font-family: var(--ff-syne);
-} */
-
 h1 {
   font: var(--heading1)
 }
